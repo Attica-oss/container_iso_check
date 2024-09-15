@@ -12,11 +12,11 @@ def read_soc_file() -> None:
     Returns:
         list[str]: list of containers
     """
-    container_number = input("Enter container number: ")
+    # container_number = input("Enter container number: ")
     with open(soc_file, "r", encoding="utf-8") as file:
         data = toml.load(file)
         return data
-            
+
     # with open(soc_file, "+a", encoding='utf-8') as f:
     #     return toml.dump(f)["soc"]["containers"]
 

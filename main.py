@@ -7,7 +7,7 @@ def main():
     # Example usage
     validator = iso_check.ContainerValidator()
 
-    logo = """                                                                                
+    logo = """
                                                                                 
                                                   ---                           
                  =#+   #%%%%--=-#%%%%--=- =-   =*%%%%%#=    -#%-                
