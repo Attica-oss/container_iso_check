@@ -1,7 +1,6 @@
                                                                                 
 ![logo6](https://github.com/user-attachments/assets/993d419a-ca09-41ad-85bf-a5c6288526ec)
 
-Here's a `README.md` file based on the code you provided:
 
 ---
 
