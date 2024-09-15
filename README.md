@@ -1,5 +1,4 @@
-                                                                                
-          ![logo6](https://github.com/user-attachments/assets/744d204a-cb66-41d0-9496-98d6e0ef1593)
+
                                                                       
                                                   ---                           
                  =#+   #%%%%--=-#%%%%--=- =-   =*%%%%%#=    -#%-                
