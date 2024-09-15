@@ -8,6 +8,28 @@ def main():
     # Example usage
     validator = iso_check.ContainerValidator()
 
+    logo = """                                                                                
+                                                                                
+                                                  ---                           
+                 =#+   #%%%%--=-#%%%%--=- =-   =*%%%%%#=    -#%-                
+               -+=+@#- ---%@=   ---%@-    *+  +@%=- -=+-   -%@@%-               
+              =+- +@@%+   %@=      %@-   =@% -@@-         -%@==@%-              
+             =*-  +@@@@=  %@=      %@-   =@%  #@+        -%@%##%@#              
+              -=+=*@#+-   %@-      %@-   -@%  -*@%#*= =- %@+-----==             
+                 -=-      -=       -=     =-    -=+*=    ==      --             
+                                                                                
+                      --------Open Source Software-----------                     
+
+                    Container Iso Check
+                    version: v.0.0.1
+                    
+                    For checking validity of container numbers.
+
+                    author: g.mounac<at>outlook.com
+                    git-hub: https://github.com/Attica-oss/container_iso_check                    
+                                                                                """
+
+    print(logo)
     choice: int = int(
         input("Enter '1' to check ISOs or '2' to check ISOs in a file: "))
     try:
