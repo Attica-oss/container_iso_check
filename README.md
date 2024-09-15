@@ -1,5 +1,6 @@
 
 [![Pylint](https://github.com/Attica-oss/container_iso_check/actions/workflows/pylint.yml/badge.svg)](https://github.com/Attica-oss/container_iso_check/actions/workflows/pylint.yml)
+[![CodeQL Advanced](https://github.com/Attica-oss/container_iso_check/actions/workflows/codeql.yml/badge.svg)](https://github.com/Attica-oss/container_iso_check/actions/workflows/codeql.yml)
                                                                                 
 ![logo6](https://github.com/user-attachments/assets/993d419a-ca09-41ad-85bf-a5c6288526ec)
 
