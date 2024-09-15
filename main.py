@@ -1,6 +1,5 @@
 """Entry point for the application."""
 from app import iso_check
-import polars as pl
 
 
 def main():

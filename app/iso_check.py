@@ -33,7 +33,7 @@ class ContainerValidator:
             "Enter container numbers separated by commas: ").split(',')
         return [number.strip() for number in container_numbers]
 
-    def read_toml_file(self, file_path=SOC_FILE) -> list[str]:
+    def read_toml_file(self, file_path=SOC_FILE) -> list:
         """Read TOML file and return the container numbers"""
         with open(file_path, "r", encoding="utf-8") as file:
             data = toml.load(file)
@@ -93,7 +93,7 @@ class ContainerValidator:
 
     def validate_check_digit(self, container_number) -> bool:
         """Calculate the check digit according to the ISO 6346 standard"""
-        value_map: dict[str, int] = {
+        value_map: dict = {
             'A': 10,
             'B': 12,
             'C': 13,

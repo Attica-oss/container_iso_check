@@ -6,7 +6,7 @@ import toml
 soc_file: Path = Path("/home/gmoun/Project/container_iso_check/app/SOC.toml")
 
 
-def add_soc_file(container_number) -> None:
+def read_soc_file() -> None:
     """Read the config file
 
     Returns:
@@ -15,12 +15,13 @@ def add_soc_file(container_number) -> None:
     container_number = input("Enter container number: ")
     with open(soc_file, "r", encoding="utf-8") as file:
         data = toml.load(file)
+        return data
             
-    with open(soc_file, "+a", encoding='utf-8') as f:
-        return toml.dump(f)["soc"]["containers"]
+    # with open(soc_file, "+a", encoding='utf-8') as f:
+    #     return toml.dump(f)["soc"]["containers"]
 
 
-def list_to_series(containers: list[str]) -> pl.Series:
+def list_to_series(containers: list) -> pl.Series:
     """Convert list to series"""
     return pl.Series(containers)
 
