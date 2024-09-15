@@ -1,13 +1,14 @@
+
 [![Pylint](https://github.com/Attica-oss/container_iso_check/actions/workflows/pylint.yml/badge.svg)](https://github.com/Attica-oss/container_iso_check/actions/workflows/pylint.yml)
                                                                                 
 ![logo6](https://github.com/user-attachments/assets/993d419a-ca09-41ad-85bf-a5c6288526ec)
 
 
----
-
 # Container Number Validator
 
-This project provides a simple tool for validating ISO container numbers, including SOC (Shipper Owned Containers). It ensures that container numbers conform to the required format and validates check digits according to the ISO 6346 standard. This implementation uses the [Polars](https://pola-rs.github.io/polars-book/user-guide/index.html) library for data handling and is intended for developers familiar with Python and Rust's `polars`.
+This project provides a simple tool for validating ISO container numbers, including SOC (Shipper Owned Containers).
+It ensures that container numbers conform to the required format and validates check digits according to the ISO 6346 standard.
+This implementation uses the [Polars](https://pola-rs.github.io/polars-book/user-guide/index.html) library for data handling and is intended for developers familiar with Python and Rust's `polars`.
 
 ## Features
 
@@ -18,7 +19,7 @@ This project provides a simple tool for validating ISO container numbers, includ
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.10+
 - [Poetry](https://python-poetry.org/) for managing dependencies
 - Polars for efficient data handling
 - TOML for configuration file handling
